@@ -12,12 +12,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 
 @RunWith(Parameterized.class)
-public class nextTest {
+public class TestQuestions {
           private WebDriver driver;
           private int index;
           private String text;
 
-          public nextTest(int index, String text) {
+          public TestQuestions(int index, String text) {
            this.index = index;
            this.text = text;
     }

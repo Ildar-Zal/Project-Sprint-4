@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
     @RunWith(Parameterized.class)
-    public class TestOrderPageWithNextButton {
+    public class OrderWithBottomButton {
         private WebDriver driver;
 
         private String userName;
@@ -21,7 +21,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
         private String number;
         private String comment;
 
-        public TestOrderPageWithNextButton(String userName, String nextName, String adress, String station, String number, String comment) {
+        public OrderWithBottomButton(String userName, String nextName, String adress, String station, String number, String comment) {
             this.userName = userName;
             this.nextName = nextName;
             this.adress = adress;
